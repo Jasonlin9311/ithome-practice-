@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
-<title>Hello</title>
+  <meta charset="UTF-8">
+  <title>JavaScript 範例</title>
 </head>
 <body>
-<!--註解在這裡-->
-<h1>安安各位好</h1>
-<p>這裡是飛飛鐵人賽的練習 Github 專案</p>
+  <h1 id="greeting">哈囉！</h1>
+  <button onclick="changeText()">點我換文字</button>
 
+  <script>
+    function changeText() {
+      document.getElementById("greeting").innerText = "安安各位好！";
+    }
+  </script>
 </body>
 </html>
