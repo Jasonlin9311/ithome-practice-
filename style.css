@@ -1,0 +1,11 @@
+body {
+  background-color: #f0f0f0; /* 背景顏色 */
+}
+
+h1 {
+  color: blue; /* 標題字體顏色 */
+}
+
+p {
+  font-size: 18px; /* 文字大小 */
+}
